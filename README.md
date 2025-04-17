@@ -16,4 +16,7 @@ git clone https://github.com/ShiranaiAho/odin-recipes.git
 ```
 2. Open `index.html` in your browser.
 ___
-Thanks for checking out my project and Keep going!!
+<div align="center">
+    <p>Thanks for checking out my project and <strong>Keep going!!</strong></p>
+    <img src="./images/KeepGoing.png" alt="A drawing of my little raven mascot encouraging you" width="200"> 
+</div>
