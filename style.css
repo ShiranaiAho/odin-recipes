@@ -1,0 +1,137 @@
+@import url(https://fonts.googleapis.com/css?family=Patrick+Hand);
+
+* {
+    font-family: "Patrick Hand", cursive;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+    background-color: rgb(228, 112, 37);
+    color: rgb(255, 245, 182);
+}
+
+header {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin: auto;
+    top: 0px;
+    background-color: rgb(228, 112, 37);
+    color: rgb(255, 245, 182);
+    padding: 10px 0 25px;
+}
+
+header h1 {
+    width: 100%;
+}
+
+.icon {
+    width: 65px;
+    height: 65px;
+}
+
+.iconTitle {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    width: 35%;
+    justify-content: space-around;
+}
+
+.homeRecipes {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 15px 0px;
+    margin: 10px auto;
+    width: 75%;
+    min-width: 910px;
+    border: 5px rgb(99, 66, 23) solid;
+    border-radius: 255px 15px 255px 15px/15px 255px 15px 255px;
+    box-shadow: 10px 10px 2px 1px hsla(0, 0%, 0%, .2);
+    overflow: hidden;
+}
+
+.homeRecipes .homeSpecial {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.homeSpecial h1 {
+    font-size: 45px;
+    min-width: 525px;
+}
+
+.homeSpecial span {
+    color: #efc070;
+    text-shadow: 2px 2px 2px hsla(0, 0%, 0%, .2);
+}
+
+.btn-recipes {
+    width: 200px;
+    font-weight: bold;
+    margin-top: 7%;
+    padding: 10px;
+    border: 5px rgb(99, 66, 23) solid;
+    border-radius: 255px 15px 255px 15px/15px 255px 15px 255px;
+    box-shadow: 20px 38px 34px -26px hsla(0, 0%, 0%, .2);
+    transition: all .5s ease;
+}
+
+.btn-recipes:hover {
+    box-shadow: 2px 8px 4px -6px hsla(0, 0%, 0%, .3);
+}
+
+.homeSpecialImg {
+    margin: -25px;
+}
+
+.odinImg {
+    width: 250px;
+}
+
+.lastRecipes {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.lastRecipes h2 {
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline #efc070;
+}
+
+.lastRecipes ul {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    width: 95%;
+}
+
+.lastRecipes li {
+    list-style: none;
+    width: 20%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.lastRecipes img {
+    width: 275px;
+    height: 250px;
+    border: 5px rgb(99, 66, 23) dashed;
+    border-radius: 255px 15px 255px 15px/15px 255px 15px 255px;
+}
+
+footer img {
+    float: left;
+    width: 45px;
+}
+
+footer {
+    margin-top: auto;
+    width: 100%;
+    bottom: 0;
+    border-top: 5px rgb(99, 66, 23) solid;
+}
