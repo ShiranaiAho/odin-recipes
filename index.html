@@ -3,25 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Odin Recipes</title>
 </head>
 <body>
-    <header style="position: relative; top:0px; text-align: center; padding-bottom: 30px; border-bottom: 1px gray solid;">
-        <h1>Odin Recipes</h1>
+    <header>
+        <div class="iconTitle">
+            <img src="./images/odinCookIcon.png" alt="Site logo" class="icon">
+            <h1 id="title">Odin Recipes</h1>
+        </div>
+        <nav>
+            <a>Recipes</a>
+            <a>About</a>
+            <a>Contact</a>
+        </nav>
     </header>
-
-    <div>
-        <h2>Last recipes added:</h2>
-        <ul>
-            <li><a href="./recipes/rosemary-potatoes.html">Fancy Crusted Rosemary Scalloped Potatoes</a></li>
-            <li><a href="./recipes/coconut-rum-punch.html">Coconut Rum Punch</a></li>
-            <li><a href="./recipes/pineapple-cheesecake.html">Pineapple Cheesecake</a></li>
-        </ul>
+    <div class="sectionContent">
+        <div class="homeRecipes">
+            <div class="homeSpecial">
+                <h1>Do you need a <span>SPECIAL</span> dinner?</h1>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Aliquid quasi ullam maiores iste voluptatum voluptatibus veritatis ut, inventore, aliquam sunt natus esse ab repellat?
+                    Magnam nam sequi est ut asperiores.
+                </p>
+                <button class="btn-recipes">Check our Recipes!</button>
+            </div>
+            <div class="homeSpecialImg">
+                <img src="./images/OdinCookSticker.png" alt="Odin with a hot pie" class="odinImg">
+            </div>
+        </div>
+    
+        <div class="lastRecipes">
+            <h2>Last Recipes Added</h2>
+            <ul>
+                <li>
+                    <a href="./recipes/rosemary-potatoes.html">
+                        <img 
+                            src="https://www.allrecipes.com/thmb/C-HIBccb_CSwUWcTGVBhke7JZsw=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/4132196-1c499ac355eb4746949a88d57a55ba1c.jpg"
+                            alt="A picture of crusted rosemary scalloped potatoes"
+                        >
+                        Fancy Crusted Rosemary Scalloped Potatoes
+                    </a>
+                </li>
+                <li>
+                    <a href="./recipes/coconut-rum-punch.html">
+                        <img 
+                            src="https://www.allrecipes.com/thmb/OSxb_WwznCcaGQj5yOv_UO6OycI=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/11695386_Coconut-Rum-Punch_Shelia-Johnson_4x3-fa93a603acf4495f8203adad3055e618.jpg"
+                            alt="A picture of a Coconut Rum Punch"
+                        >
+                        Coconut Rum Punch
+                    </a>
+                </li>
+                <li>
+                    <a href="./recipes/pineapple-cheesecake.html">
+                        <img 
+                            src="https://www.allrecipes.com/thmb/EKWCKiSRnA-zpFuu6SpP7TSfglo=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Pineapple_Cheesecake_054-2000-2d9b85690fa643989414f8241fbbdbc0.jpg"
+                            alt="A picture of a pineapple cheesecake"
+                        >
+                        Pineapple Cheesecake
+                    </a>
+                </li>
+            </ul>
+        </div>
+    
+        <footer>
+            <a href="https://github.com/ShiranaiAho"><img src="./images/KeepGoing.png" alt="Me"></a>
+            <p>Project made by ShiranaiAho</p>
+        </footer>
     </div>
-
-    <footer style="display: flex; position: fixed; bottom: 0; border-top: 1px gray solid; width: 99%;">
-        <a href="https://github.com/ShiranaiAho"><img src="./images/KeepGoing.png" alt="Me" width="45"></a>
-        <p>Project made by ShiranaiAho</p>
-    </footer>
 </body>
 </html>
