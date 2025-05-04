@@ -1,10 +1,12 @@
-# The Odin Project: Recipes
+# The Odin Project: Recipes v0.2.0
 
-This [project](https://www.theodinproject.com/lessons/foundations-recipes) was created to practice the basics of HTML
+This [project](https://www.theodinproject.com/lessons/foundations-recipes) was created to practice the basics of HTML.
+The version 0.2.0 is for practicing CSS.
 
 ## Objectives
-- Practice the HTML structure (Maybe this project will be revisited to add some style)
+- Practice the HTML structure
 - Getting used to Git, File Structure and Conventional Commits
+- Practice CSS
 
  ## Getting Started :rocket:
 Open this [site](https://shiranaiaho.github.io/odin-recipes) in your browser
